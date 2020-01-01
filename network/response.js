@@ -4,7 +4,7 @@ exports.success = (request, response, message, status) => {
         "error": "",
         "message": message || "success",
     });
-}
+};
 
 exports.error = (request, response, message, status, details) => {
     // Registro de lo sucedido.
@@ -15,4 +15,4 @@ exports.error = (request, response, message, status, details) => {
         "error": message || "Error",
         "message": "",
     });
-}
+};
